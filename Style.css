@@ -1,0 +1,9 @@
+*{ margin: 0;
+    padding: 0;}
+
+.navbar{ background-color: #171A1C; position: relative; height: 100px;}
+.listItem{ display: inline-block;  margin-left: 100px; }
+.logo{ width: 130px; height: 130px;}
+a{text-decoration: none; color: white; font-family: 'Times New Roman', Times, serif; font-size: 20px;}
+.navList{ list-style-type: none; position: absolute; right:050px; top :40px;
+    }
