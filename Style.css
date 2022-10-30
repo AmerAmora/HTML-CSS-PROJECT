@@ -33,7 +33,11 @@ a{
     position: relative;
 
 }
-.mainImage{ position: absolute; bottom: 0; right: 150px; width: 500px;}
+.mainImage{ 
+    position: absolute; 
+    bottom: 0; right: 150px; 
+    width: 310px;
+}
 .mainText{
     text-align: center; 
     font-size: 50px; 
@@ -68,9 +72,11 @@ a{
     text-align: center; 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 70px;
+    padding-top: 40px;
     font-weight: bold;
-    padding-top: 90px;
-    padding-left: 90px;
+    padding-right: 80px;
+    
+   
 }
 .eduText
 {
@@ -80,4 +86,176 @@ a{
     font-size: 25px;
     padding-top: 130px;
     padding-left: 500px;
+}
+
+.skills{ 
+    background-color: #171A1C; 
+    height: 1100px;
+    position: relative;
+
+}
+.skillsMain
+{
+    color: white;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    padding-top: 40px;
+    font-weight: bold;
+
+}
+.techSkills
+{
+    color: white;
+    padding-left: 100px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 60px;
+    font-weight: bold;
+
+}
+.html
+{   display: inline-block;
+    font-size: 20px;
+    color: white;
+    padding-top: 80px;
+    padding-left:130px ;
+
+}
+
+.container {
+    display: inline-block;
+   margin-left: 120px;
+    width: 1300px;
+    text-align: center;
+  }
+  .progress2 {
+    padding: 6px;
+    border-radius: 30px;
+    background:white;  
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar2 {
+    height: 10px;
+    border-radius: 30px;
+   
+     
+  }
+  
+  .progress-moved .progress-bar2 {
+    width: 90%; 
+    background-color: green;  
+    
+  }
+  .css
+  {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    padding-top: 80px;
+    padding-left:138px ;
+  }
+  .container-2 {
+    display: inline-block;
+   margin-left: 132px;
+    width: 1300px;
+    text-align: center;
+  }
+  .mvc
+  {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    padding-top: 80px;
+    padding-left:138px ;
+  }
+
+  .container-3 {
+    display: inline-block;
+   margin-left: 138px;
+    width: 1300px;
+    text-align: center;
+  }
+  .MVC-progress2 {
+    padding: 6px;
+    border-radius: 30px;
+    background:white;  
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .MVC-progress-bar2 {
+    height: 10px;
+    border-radius: 30px;
+   
+     
+  }
+  
+  .MVC-progress-moved .MVC-progress-bar2 {
+    width: 30%; 
+    background-color: red;  
+    
+  }
+ 
+  .softSkills
+{
+    color: white;
+    padding-left: 100px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 200px;
+    font-weight: bold; 
+    display: inline-block;
+}
+.list{ 
+    display: inline-block;
+}
+.skillsItem{ 
+    display: inline-block; 
+    color: white; 
+    font-size: 23px;
+    padding-left: 175px;
+}
+.languages
+{
+    color: white;
+    padding-left: 100px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 200px;
+    font-weight: bold; 
+    display: inline-block;
+}
+.languagesItem
+{
+    display: inline-block; 
+    color: white; 
+    font-size: 25px;
+    padding-left: 250px;
+
+}
+#arabic{padding-left: 300px;}
+
+.experience
+{ height: 600px;
+  background-color: #22282A;
+  position: relative;
+ 
+}
+.expMain
+{
+    color: white;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    padding-top: 50px;
+    font-weight: bold;
+
+}
+.expImage
+{
+    height: 400px;
+    position: absolute; 
+    right: 0;
+    top: 200px;
 }
