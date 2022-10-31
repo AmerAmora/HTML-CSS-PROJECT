@@ -7,22 +7,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat">
+    <script src="https://kit.fontawesome.com/e869edadc1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
 <nav class="navbar">
-
-    <img src="media/logo.png" class="logo"> 
+ <a href="#main">
+    <img src="media/logo.png" class="logo"> </a>
         <ul class="navList">
-            <li class="listItem"> <a href="#">Education</a></li>
-            <li class="listItem"> <a href="#">Skills</a></li>
-            <li class="listItem"> <a href="#">Experience</a></li>
-            <li class="listItem"> <a href="#">Certificates</a></li>
-            <li class="listItem"> <a href="#">References</a></li>
+            <li class="listItem"> <a href="#education">Education</a></li>
+            <li class="listItem"> <a href="#skills">Skills</a></li>
+            <li class="listItem"> <a href="#experience">Experience</a></li>
+            <li class="listItem"> <a href="#certificates">Certificates</a></li>
+            <li class="listItem"> <a href="#references">References</a></li>
         </ul>
    
 </nav>
-<div class="main">
+
+<div id="main" class="main">
 <img src="media/Amer.png" class="mainImage">
 <p class="mainText" >
     Amer Mohammad Amora
@@ -33,7 +36,7 @@
 
 </div>
 
-    <div class="education">
+    <div id="education" class="education">
 <img src="media/Education.png" class="eduImage">
 <p class="eduMain">Education</p>
 
@@ -52,7 +55,7 @@
 </div>  
     </div>
 
-    <div class="skills">
+    <div id="skills" class="skills">
 
         <p class="skillsMain">Skills & Languages</p>
         <div class="gridContainer">
@@ -122,7 +125,7 @@
 
     </div>
 
-    <div class="experience">
+    <div id="experience" class="experience">
         <p class="expMain">Experience</p>
         <div > <p class="expText">Full stack web delevpoer Traniee at Orange Coding Academy  ( 2022- present )  </p>
             <div class="exp-grid">
@@ -161,7 +164,7 @@
 
         <img src="media/experience.png" class="expImage">
     </div>
-    <Div class="Certificates">
+    <Div id="certificates" class="Certificates">
         <p class="cerMain"> Certificates</p>
         <div class="column">
             <div class="certCard">
@@ -175,7 +178,7 @@
     </Div>
     </Div>
     
-    <div class="References">
+    <div id="references" class="References">
         <p class="refsMain"> References</p>
         <div class="flex-cards">
             <div class="ref-column">
@@ -207,5 +210,26 @@
         
         </div>
     </div>
+
+    <footer class="footer">
+      <div class="footer-grid">
+        <div class="footer-items">
+         Follow my Socials
+         <ul class="socials">
+            <li class="socials-items"><i class="fa-brands fa-github"></i></li>
+            <li class="socials-items"> <i class="fa-brands fa-twitter"></i></li>
+            <li class="socials-items"><i class="fa-brands fa-discord"></i></li>
+            <li class="socials-items"> <i class="fa-brands fa-linkedin"></i> </li>
+         </ul>
+        </div>
+        <div class="footer-items">
+            Contact
+            <ul class="footer-list">
+               <li class="footer-list-item"> <i style="font-size:25px ;" class="fa-solid fa-phone" ></i> +962778095488 </li>
+               <li class="footer-list-item"> <i style="font-size:25px ;" class="fa-solid fa-envelope"></i> Amer.m.amora@gmail.com</li>
+            </ul>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
