@@ -428,30 +428,64 @@ border-bottom: 1px solid rgb(255, 255, 255,0.3) ;
     padding-left: 20px;
 }
 @media screen and (min-device-width: 0px) and (max-device-width : 480px){
-
-
+   
+   
+    .logo{ margin-left: 1px;}
     html,body{width: 100%; height: 100%;}
-
+    .mainText{ font-size: 20px; margin-left: 110px; width: 200px; padding-top: 200px;}
+    .position{font-size: 10px; margin-left: 165px ; width: 100px;}
+    .quote{ font-size: 10px; width: 100px; margin-top: 100px;}
     .mainImage{width: 200px; height: 400px; margin-right: -150px;}
-
-
+    .eduMain{font-size: 30px; margin-left:60px;}
     .eduImage{ display: none;}
-    .flex-cards{
-        flex-direction: row;
-
-        flex-wrap: wrap;
-    }
-    .ref-Card{width: 150px; height: 250px;}
-    .Cert{width: 100px; height: 100px;}
-    .ref-Items{font-size: 10px;}
-    .container{ display: none; width: 400px; margin-left:-150px ; margin-top: 10px;} 
-  .lanItem{ display: block;}
-  .container-2{display: none; width: 400px; margin-left:-150px ; margin-top: 10px;}
-
-
-
-
-
+    .card{ margin-right:-240px;}
+    
+    
+    .skills{ height: 1500px;}
+    
+.gridContainer
+{ grid-template-columns: auto;
+    margin-left: -100px;
+}
+.techSkills{font-size: 20px;}
+.skillsItem
+{
+    font-size: 15px;
+}
+.softSkills{font-size: 20px;}
+.skillsMain{ font-size: 30px;}
+    .softItem{font-size: 15px;}
+    .lan{ font-size: 30px;}
+    .lanItem{ font-size: 18px; margin-left:110px;}
+    .container{ display: block; width: 300px; margin-left:-100px ; margin-top: 10px; padding-top: 10px;} 
+    .container-2{display: block; width: 300px; margin-left:-100px ; margin-top: 10px; padding-top: 10px;}
+    #arabic{ margin-left: 20px;}
+    #english{ margin-left: 20px; }
+    .expMain{ font-size: 30px;}
+    .expImage{ margin-top:-50px; height: 150px;}
+    .expText{ font-size: 15px; margin-left: -280px; margin-top: 130px;}
+    .exp-grid{margin-left:-270px; grid-template-columns: 300px;}
+    .lists{font-size: 15px;}
+    .frontItem,.backItem{font-size: 10px;}
+    .experience{height: 700px;}
+    .cerMain{font-size: 30px;}
+    .certCard{ margin-right: -70px;  width: 200px;
+        height: 350px;}
+        .References{height: 1100px;}
+        .refsMain{font-size: 30px;}
+        .Certificates{height: 700px;}
+        .flex-cards{
+            flex-direction: row;
+         margin-right: 200px;
+            flex-wrap: wrap;
+        }
+        .ref-Card{width: 150px; height: 250px;}
+        .Cert{width: 100px; height: 100px;}
+        .ref-Items{font-size: 10px;}
+        .footer-items{font-size: 15px;}
+        .socials-items{margin-left: -10px;}
+        .footer-grid{ margin-left:100px; grid-template-columns: auto  ;}
+        .footer-list-item{font-size: 10px; padding-top: 30px;}
 }
 
 
@@ -461,9 +495,10 @@ border-bottom: 1px solid rgb(255, 255, 255,0.3) ;
 
 
 @media screen and (min-device-width: 481px) and (max-device-width : 768px){
-    html,body{width: 100%; height: 100%;}
-    .mainImage{ width: 300px; margin-right: -70px;}
+   html,body{width: 100%; height: 100%;}
+  .mainImage{ width: 300px; margin-right: -70px;}
   .eduImage{ display: none;}
+  
   .quote { font-size: 15px;}
   .gridContainer{margin-left: -100px;}
   .container{ display: block; width: 400px; margin-left:-150px ; margin-top: 10px;} 
